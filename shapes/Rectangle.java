@@ -4,9 +4,9 @@ public class Rectangle {
 	private int height;
 	private int width;
 	
-	public Rectangle(int w, int h) {
-		this.width = w;
-		this.height = h;
+	public Rectangle(int x, int y) {
+		this.width = x;
+		this.height = y;
 	}
 	
 	public int getArea() {
